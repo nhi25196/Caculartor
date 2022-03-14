@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculartor</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/fontAwesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="calculator_key">
+                <table>
+                    <tr>
+                        <td colspan="4">
+                            <input type="text" id="ketqua" style="background-color: transparent;border: none" value="0">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" class="keys key_math_avd" value="CE" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_math_avd" value="+/-" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_math_avd" value="%" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_operator" value="/" onclick="ClickButton(this)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" class="keys key_numb" value="1" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_numb" value="2" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_numb " value="3" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_operator" value="x" onclick="ClickButton(this)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" class="keys key_numb " value="4" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_numb " value="5" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_numb " value="6" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_operator" value="-" onclick="ClickButton(this)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" class="keys key_numb " value="7" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_numb " value="8" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_numb" value="9" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_operator" value="+" onclick="ClickButton(this)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2 ">
+                            <input type="button" class="keys key_numb key_0" value="0" onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_numb" value="." onclick="ClickButton(this)">
+                        </td>
+                        <td>
+                            <input type="button" class="keys key_operator" value="=" onclick="ClickButton(this)">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js "></script>
+<script src="libs/jQuery/jquery-3.4.1.min.js "></script>
+<script src="libs/bootstrap/js/bootstrap.min.js "></script>
+
+
+</html>
